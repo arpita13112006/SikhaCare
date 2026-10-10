@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-brand {
+    font-family: 'Itim', cursive, sans-serif;
+  }
+  .font-tagline {
+    font-family: 'Comic Relief', cursive, sans-serif;
+  }
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #E0ACE4;
+  color: #4A2C5A;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

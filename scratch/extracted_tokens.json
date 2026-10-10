@@ -1,0 +1,1803 @@
+{
+  "colors": [
+    "#e0ace4",
+    "#4a2c5a",
+    "#ffffff",
+    "#f7eaf8",
+    "#000000",
+    "#fff0fa",
+    "#b26ba6"
+  ],
+  "fontFamilies": [
+    "Itim",
+    "Comic Relief",
+    "Inter"
+  ],
+  "fontSizes": [
+    "32px (weight: 400)",
+    "16px (weight: 400)",
+    "16px (weight: 600)",
+    "16px (weight: 500)",
+    "14px (weight: 600)"
+  ],
+  "frames": [
+    {
+      "id": "1:2",
+      "name": "home page",
+      "type": "FRAME",
+      "width": 412,
+      "height": 917,
+      "backgroundColor": "#e0ace4",
+      "children": [
+        {
+          "id": "7:3",
+          "name": "welcome-content",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "7:4",
+              "name": "hero-section",
+              "type": "FRAME",
+              "fills": [],
+              "children": [
+                {
+                  "id": "7:5",
+                  "name": "illustration-container",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "7:7",
+                      "name": "avatar",
+                      "type": "FRAME",
+                      "fills": [
+                        "IMAGE",
+                        "IMAGE"
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "7:8",
+                  "name": "text-group",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "7:9",
+                      "name": "headline",
+                      "type": "TEXT",
+                      "characters": "Sakhi Care",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Itim",
+                        "fontSize": 32,
+                        "fontWeight": 400,
+                        "textAlignHorizontal": "CENTER"
+                      }
+                    },
+                    {
+                      "id": "7:10",
+                      "name": "subheadline",
+                      "type": "TEXT",
+                      "characters": "Private AI Women’s Health Companion",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Comic Relief",
+                        "fontSize": 16,
+                        "fontWeight": 400,
+                        "textAlignHorizontal": "CENTER"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "7:11",
+              "name": "footer-section",
+              "type": "FRAME",
+              "fills": [],
+              "children": [
+                {
+                  "id": "7:12",
+                  "name": "get-started-button",
+                  "type": "FRAME",
+                  "fills": [
+                    "#4a2c5a"
+                  ],
+                  "cornerRadius": 28,
+                  "children": [
+                    {
+                      "id": "7:13",
+                      "name": "button-label",
+                      "type": "TEXT",
+                      "characters": "Get started",
+                      "fills": [
+                        "#ffffff"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 16,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "7:14",
+                  "name": "login-link",
+                  "type": "TEXT",
+                  "characters": "Already have an account? Log in",
+                  "fills": [
+                    "#4a2c5a"
+                  ],
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": 500,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5:4",
+      "name": "login page",
+      "type": "FRAME",
+      "width": 412,
+      "height": 917,
+      "backgroundColor": "#e0ace4",
+      "children": [
+        {
+          "id": "10:19",
+          "name": "login-content",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:20",
+              "name": "hero-section",
+              "type": "FRAME",
+              "fills": [],
+              "children": [
+                {
+                  "id": "10:21",
+                  "name": "logo-row",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "10:22",
+                      "name": "Sakhi Care / Logo",
+                      "type": "FRAME",
+                      "fills": [],
+                      "cornerRadius": 28,
+                      "children": [
+                        {
+                          "id": "11:6",
+                          "name": "Sakhi Care / Circular logo",
+                          "type": "RECTANGLE",
+                          "fills": [
+                            "IMAGE"
+                          ],
+                          "cornerRadius": 26
+                        }
+                      ]
+                    },
+                    {
+                      "id": "10:24",
+                      "name": "headline",
+                      "type": "TEXT",
+                      "characters": "Sakhi Care",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Itim",
+                        "fontSize": 32,
+                        "fontWeight": 400,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "10:23",
+                  "name": "text-group",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "10:25",
+                      "name": "subheadline",
+                      "type": "TEXT",
+                      "characters": "Private AI Women’s Health Companion",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Comic Relief",
+                        "fontSize": 16,
+                        "fontWeight": 400,
+                        "textAlignHorizontal": "CENTER"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "10:26",
+              "name": "login-card",
+              "type": "FRAME",
+              "fills": [
+                "#ffffff"
+              ],
+              "cornerRadius": 28,
+              "children": [
+                {
+                  "id": "10:27",
+                  "name": "email-field",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "10:28",
+                      "name": "email-label",
+                      "type": "TEXT",
+                      "characters": "Email",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 14,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    {
+                      "id": "10:29",
+                      "name": "email-input",
+                      "type": "FRAME",
+                      "fills": [
+                        "#f7eaf8"
+                      ],
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "id": "10:30",
+                          "name": "email-placeholder",
+                          "type": "TEXT",
+                          "characters": "Enter your email",
+                          "fills": [
+                            "#4a2c5a"
+                          ],
+                          "style": {
+                            "fontFamily": "Inter",
+                            "fontSize": 16,
+                            "fontWeight": 400,
+                            "textAlignHorizontal": "LEFT"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "10:31",
+                  "name": "password-field",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "10:32",
+                      "name": "password-label",
+                      "type": "TEXT",
+                      "characters": "Password",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 14,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    {
+                      "id": "10:33",
+                      "name": "password-input",
+                      "type": "FRAME",
+                      "fills": [
+                        "#f7eaf8"
+                      ],
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "id": "10:34",
+                          "name": "password-placeholder",
+                          "type": "TEXT",
+                          "characters": "Enter your password",
+                          "fills": [
+                            "#4a2c5a"
+                          ],
+                          "style": {
+                            "fontFamily": "Inter",
+                            "fontSize": 16,
+                            "fontWeight": 400,
+                            "textAlignHorizontal": "LEFT"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "10:35",
+                  "name": "forgot-password",
+                  "type": "TEXT",
+                  "characters": "Forgot password?",
+                  "fills": [
+                    "#4a2c5a"
+                  ],
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": 600,
+                    "textAlignHorizontal": "RIGHT"
+                  }
+                },
+                {
+                  "id": "10:36",
+                  "name": "login-button",
+                  "type": "FRAME",
+                  "fills": [
+                    "#4a2c5a"
+                  ],
+                  "cornerRadius": 28,
+                  "children": [
+                    {
+                      "id": "10:37",
+                      "name": "button-label",
+                      "type": "TEXT",
+                      "characters": "Log in",
+                      "fills": [
+                        "#ffffff"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 16,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "10:38",
+              "name": "footer-section",
+              "type": "FRAME",
+              "fills": [],
+              "children": [
+                {
+                  "id": "10:39",
+                  "name": "register-link",
+                  "type": "TEXT",
+                  "characters": "Don’t have an account? Register",
+                  "fills": [
+                    "#4a2c5a"
+                  ],
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": 500,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "20:14",
+              "name": "← BACK",
+              "type": "TEXT",
+              "characters": "← BACK",
+              "fills": [
+                "#000000"
+              ],
+              "style": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontWeight": 400,
+                "textAlignHorizontal": "LEFT"
+              }
+            }
+          ]
+        },
+        {
+          "id": "10:96",
+          "name": "Small flower 9",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:97",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:98",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:99",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:100",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:101",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:102",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:89",
+          "name": "Small flower 8",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:90",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:91",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:92",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:93",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:94",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:95",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:82",
+          "name": "Small flower 7",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:83",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:84",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:85",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:86",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:87",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:88",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:75",
+          "name": "Small flower 6",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:76",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:77",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:78",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:79",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:80",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:81",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:68",
+          "name": "Small flower 5",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:69",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:70",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:71",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:72",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:73",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:74",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:61",
+          "name": "Small flower 4",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:62",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:63",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:64",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:65",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:66",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:67",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:54",
+          "name": "Small flower 3",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:55",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:56",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:57",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:58",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:59",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:60",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:47",
+          "name": "Small flower 2",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:48",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:49",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:50",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:51",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:52",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:53",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10:40",
+          "name": "Small flower 1",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "10:41",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:42",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:43",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:44",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:45",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "10:46",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11:8",
+      "name": "register page",
+      "type": "FRAME",
+      "width": 412,
+      "height": 917,
+      "backgroundColor": "#e0ace4",
+      "children": [
+        {
+          "id": "16:67",
+          "name": "register-content",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:68",
+              "name": "hero-section",
+              "type": "FRAME",
+              "fills": [],
+              "children": [
+                {
+                  "id": "16:69",
+                  "name": "logo-row",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "16:70",
+                      "name": "Sakhi Care / Logo",
+                      "type": "FRAME",
+                      "fills": [],
+                      "cornerRadius": 28,
+                      "children": [
+                        {
+                          "id": "16:71",
+                          "name": "Sakhi Care / Circular logo",
+                          "type": "RECTANGLE",
+                          "fills": [
+                            "IMAGE"
+                          ],
+                          "cornerRadius": 26
+                        }
+                      ]
+                    },
+                    {
+                      "id": "16:72",
+                      "name": "headline",
+                      "type": "TEXT",
+                      "characters": "Sakhi Care",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Itim",
+                        "fontSize": 32,
+                        "fontWeight": 400,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "16:73",
+                  "name": "text-group",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "16:74",
+                      "name": "subheadline",
+                      "type": "TEXT",
+                      "characters": "Private AI Women’s Health Companion",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Comic Relief",
+                        "fontSize": 16,
+                        "fontWeight": 400,
+                        "textAlignHorizontal": "CENTER"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "16:75",
+              "name": "register-card",
+              "type": "FRAME",
+              "fills": [
+                "#ffffff"
+              ],
+              "cornerRadius": 28,
+              "children": [
+                {
+                  "id": "16:76",
+                  "name": "name-field",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "16:77",
+                      "name": "name-label",
+                      "type": "TEXT",
+                      "characters": "Name",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 14,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    {
+                      "id": "16:78",
+                      "name": "name-input",
+                      "type": "FRAME",
+                      "fills": [
+                        "#f7eaf8"
+                      ],
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "id": "16:79",
+                          "name": "name-placeholder",
+                          "type": "TEXT",
+                          "characters": "Enter your name",
+                          "fills": [
+                            "#4a2c5a"
+                          ],
+                          "style": {
+                            "fontFamily": "Inter",
+                            "fontSize": 16,
+                            "fontWeight": 400,
+                            "textAlignHorizontal": "LEFT"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "16:84",
+                  "name": "age-field",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "16:85",
+                      "name": "age-label",
+                      "type": "TEXT",
+                      "characters": "Mode",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 14,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    {
+                      "id": "16:86",
+                      "name": "age-input",
+                      "type": "FRAME",
+                      "fills": [
+                        "#f7eaf8"
+                      ],
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "id": "16:87",
+                          "name": "Select your mode",
+                          "type": "TEXT",
+                          "characters": "Select your mode",
+                          "fills": [
+                            "#4a2c5a"
+                          ],
+                          "style": {
+                            "fontFamily": "Inter",
+                            "fontSize": 16,
+                            "fontWeight": 400,
+                            "textAlignHorizontal": "LEFT"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "16:88",
+                  "name": "email-field",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "16:89",
+                      "name": "email-label",
+                      "type": "TEXT",
+                      "characters": "Email",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 14,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    {
+                      "id": "16:90",
+                      "name": "email-input",
+                      "type": "FRAME",
+                      "fills": [
+                        "#f7eaf8"
+                      ],
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "id": "16:91",
+                          "name": "email-placeholder",
+                          "type": "TEXT",
+                          "characters": "Enter your email",
+                          "fills": [
+                            "#4a2c5a"
+                          ],
+                          "style": {
+                            "fontFamily": "Inter",
+                            "fontSize": 16,
+                            "fontWeight": 400,
+                            "textAlignHorizontal": "LEFT"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "16:92",
+                  "name": "password-field",
+                  "type": "FRAME",
+                  "fills": [],
+                  "children": [
+                    {
+                      "id": "16:93",
+                      "name": "password-label",
+                      "type": "TEXT",
+                      "characters": "Password",
+                      "fills": [
+                        "#4a2c5a"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 14,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    {
+                      "id": "16:94",
+                      "name": "password-input",
+                      "type": "FRAME",
+                      "fills": [
+                        "#f7eaf8"
+                      ],
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "id": "16:95",
+                          "name": "password-placeholder",
+                          "type": "TEXT",
+                          "characters": "Enter your password",
+                          "fills": [
+                            "#4a2c5a"
+                          ],
+                          "style": {
+                            "fontFamily": "Inter",
+                            "fontSize": 16,
+                            "fontWeight": 400,
+                            "textAlignHorizontal": "LEFT"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "16:96",
+                  "name": "register-button",
+                  "type": "FRAME",
+                  "fills": [
+                    "#4a2c5a"
+                  ],
+                  "cornerRadius": 28,
+                  "children": [
+                    {
+                      "id": "16:97",
+                      "name": "button-label",
+                      "type": "TEXT",
+                      "characters": "Register",
+                      "fills": [
+                        "#ffffff"
+                      ],
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontSize": 16,
+                        "fontWeight": 600,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "16:98",
+              "name": "footer-section",
+              "type": "FRAME",
+              "fills": [],
+              "children": [
+                {
+                  "id": "16:99",
+                  "name": "login-link",
+                  "type": "TEXT",
+                  "characters": "Already have an account? Log in",
+                  "fills": [
+                    "#4a2c5a"
+                  ],
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": 500,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:4",
+          "name": "Small flower 1",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:5",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:6",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:7",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:8",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:9",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:10",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:11",
+          "name": "Small flower 2",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:12",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:13",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:14",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:15",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:16",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:17",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:18",
+          "name": "Small flower 3",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:19",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:20",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:21",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:22",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:23",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:24",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:25",
+          "name": "Small flower 4",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:26",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:27",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:28",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:29",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:30",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:31",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:32",
+          "name": "Small flower 5",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:33",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:34",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:35",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:36",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:37",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:38",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:39",
+          "name": "Small flower 6",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:40",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:41",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:42",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:43",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:44",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:45",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:46",
+          "name": "Small flower 7",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:47",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:48",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:49",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:50",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:51",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:52",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:53",
+          "name": "Small flower 8",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:54",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:55",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:56",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:57",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:58",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:59",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16:60",
+          "name": "Small flower 9",
+          "type": "FRAME",
+          "fills": [],
+          "children": [
+            {
+              "id": "16:61",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:62",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:63",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:64",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:65",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#fff0fa"
+              ]
+            },
+            {
+              "id": "16:66",
+              "name": "Ellipse",
+              "type": "ELLIPSE",
+              "fills": [
+                "#b26ba6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "20:16",
+          "name": "← BACK",
+          "type": "TEXT",
+          "characters": "← BACK",
+          "fills": [
+            "#000000"
+          ],
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "textAlignHorizontal": "LEFT"
+          }
+        }
+      ]
+    }
+  ]
+}
