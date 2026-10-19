@@ -8,6 +8,7 @@ import { useUser } from '../context/UserContext';
 export default function RegisterPage() {
   const navigate = useNavigate();
   const { register } = useUser();
+  const [errorMessage, setErrorMessage] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     mode: '',
@@ -17,17 +18,26 @@ export default function RegisterPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setErrorMessage('');
     if (!formData.mode) {
       alert('Please select your mode (Girl Mode or Woman Mode)');
       return;
     }
-    // Update global state and navigate to dashboard as specified in PRD Section 7
-    register({
+    const res = register({
       name: formData.name,
       mode: formData.mode,
-      email: formData.email
+      email: formData.email,
+      password: formData.password
     });
-    navigate('/dashboard');
+    if (!res.success) {
+      setErrorMessage(res.error);
+      return;
+    }
+    if (res.mode === 'Girl Mode') {
+      navigate('/girl-dashboard');
+    } else {
+      navigate('/woman-dashboard');
+    }
   };
 
   return (
@@ -63,6 +73,14 @@ export default function RegisterPage() {
 
         {/* White Card matching Figma radius 28px */}
         <div className="bg-white rounded-[28px] p-6 shadow-xl border border-white/60 space-y-4">
+          
+          {/* Error Banner */}
+          {errorMessage && (
+            <div className="bg-rose-50 border border-rose-300 rounded-[18px] p-3 flex items-start space-x-2 text-xs text-rose-800 animate-in fade-in">
+              <span className="font-bold">⚠️ {errorMessage}</span>
+            </div>
+          )}
+
           <form onSubmit={handleSubmit} className="space-y-3.5">
             
             {/* Name Field */}

@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import FlowerDecorations from '../components/FlowerDecorations';
 import SakhiLogo from '../components/SakhiLogo';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, AlertCircle } from 'lucide-react';
 import { useUser } from '../context/UserContext';
 
 export default function LoginPage() {
   const navigate = useNavigate();
-  const { login } = useUser();
+  const { user, login } = useUser();
+  const [selectedMode, setSelectedMode] = useState(user.mode || 'Girl Mode');
+  const [errorMessage, setErrorMessage] = useState('');
   const [formData, setFormData] = useState({
     email: '',
     password: ''
@@ -15,8 +17,29 @@ export default function LoginPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    login({ email: formData.email });
-    navigate('/dashboard');
+    setErrorMessage('');
+
+    const res = login({ 
+      email: formData.email,
+      password: formData.password,
+      mode: selectedMode 
+    });
+
+    if (!res.success) {
+      setErrorMessage(res.error);
+      return;
+    }
+
+    if (res.mode === 'Girl Mode') {
+      navigate('/girl-dashboard');
+    } else {
+      navigate('/woman-dashboard');
+    }
+  };
+
+  const handleModeChange = (mode) => {
+    setSelectedMode(mode);
+    setErrorMessage('');
   };
 
   return (
@@ -52,7 +75,55 @@ export default function LoginPage() {
 
         {/* White Card matching Figma radius 28px */}
         <div className="bg-white rounded-[28px] p-6 shadow-xl border border-white/60 space-y-5">
+          
+          {/* Error Banner if mode mismatch */}
+          {errorMessage && (
+            <div className="bg-rose-50 border border-rose-300 rounded-[18px] p-3.5 flex items-start space-x-2.5 text-xs text-rose-800 animate-in fade-in">
+              <AlertCircle className="w-4 h-4 text-rose-600 shrink-0 mt-0.5" />
+              <div className="space-y-1">
+                <p className="font-bold">Mode Access Denied</p>
+                <p className="leading-relaxed">{errorMessage}</p>
+              </div>
+            </div>
+          )}
+
           <form onSubmit={handleSubmit} className="space-y-4">
+
+            {/* Mode Selection */}
+            <div className="space-y-1.5">
+              <label className="block text-sm font-sans font-semibold text-[#4A2C5A]">
+                Select Login Mode
+              </label>
+              <div className="grid grid-cols-2 gap-2 bg-[#F7EAF8] p-1.5 rounded-[20px] border border-[#4A2C5A]/10">
+                <button
+                  type="button"
+                  onClick={() => handleModeChange('Girl Mode')}
+                  className={`py-2.5 px-3 rounded-[16px] text-sm font-semibold font-sans flex items-center justify-center space-x-1.5 transition-all ${
+                    selectedMode === 'Girl Mode'
+                      ? 'bg-[#4A2C5A] text-white shadow-sm'
+                      : 'text-[#4A2C5A]/70 hover:text-[#4A2C5A]'
+                  }`}
+                >
+                  <span>🌸 Girl Mode</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleModeChange('Woman Mode')}
+                  className={`py-2.5 px-3 rounded-[16px] text-sm font-semibold font-sans flex items-center justify-center space-x-1.5 transition-all ${
+                    selectedMode === 'Woman Mode'
+                      ? 'bg-[#4A2C5A] text-white shadow-sm'
+                      : 'text-[#4A2C5A]/70 hover:text-[#4A2C5A]'
+                  }`}
+                >
+                  <span>🌺 Woman Mode</span>
+                </button>
+              </div>
+              <p className="text-[11px] text-[#4A2C5A]/70 px-1">
+                {selectedMode === 'Girl Mode'
+                  ? '🌸 Strictly for Girl Mode accounts (puberty, cycle, mood & growth).'
+                  : '🌺 Strictly for Woman Mode accounts (reproductive, pregnancy & maternal care).'}
+              </p>
+            </div>
             
             {/* Email Field */}
             <div className="space-y-1.5">
@@ -65,7 +136,10 @@ export default function LoginPage() {
                   required
                   placeholder="Enter your email"
                   value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  onChange={(e) => {
+                    setFormData({ ...formData, email: e.target.value });
+                    setErrorMessage('');
+                  }}
                   className="w-full px-4 py-3.5 bg-[#F7EAF8] text-[#4A2C5A] placeholder-[#4A2C5A]/50 font-sans text-base rounded-[16px] border border-transparent focus:border-[#4A2C5A]/30 focus:bg-[#f3dedf] outline-none transition-all"
                 />
               </div>
@@ -82,7 +156,10 @@ export default function LoginPage() {
                   required
                   placeholder="Enter your password"
                   value={formData.password}
-                  onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                  onChange={(e) => {
+                    setFormData({ ...formData, password: e.target.value });
+                    setErrorMessage('');
+                  }}
                   className="w-full px-4 py-3.5 bg-[#F7EAF8] text-[#4A2C5A] placeholder-[#4A2C5A]/50 font-sans text-base rounded-[16px] border border-transparent focus:border-[#4A2C5A]/30 focus:bg-[#f3dedf] outline-none transition-all"
                 />
               </div>
@@ -104,7 +181,7 @@ export default function LoginPage() {
               type="submit"
               className="w-full mt-2 py-4 bg-[#4A2C5A] hover:bg-[#382144] active:scale-[0.99] text-white font-sans font-semibold text-lg rounded-[28px] shadow-md transition-all duration-200"
             >
-              Log in
+              Log in with {selectedMode}
             </button>
           </form>
         </div>
